@@ -31,4 +31,4 @@ im = Image.open('/home/samuel/Descargas/black.jpg')
 for i in range(0, len(first), 2):
   im.putpixel((first[i], first[i+1]), (255,255,255))
 
-im.save('/home/samuel/Descargas/black_first.jpg') # It's a bull
+im.save('black_first.jpg') # It's a bull
